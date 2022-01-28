@@ -1,0 +1,50 @@
+/* font-family: 'Open Sans', sans-serif; */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+header {
+    background-color: #F5AAB8;
+    padding: 1em 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header h1 {
+    color: white;
+    font-size: 2.5em;
+    font-style: italic;
+    font-weight: 100;
+    display: inline-block;
+    position: relative;
+    bottom: 30px;
+}
+
+nav {
+    width: 25vw;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    clear: both;
+    color: white;
+    padding: 0.5em 0.5em;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    background-color: white;
+    color: #F5AAB8;
+}
