@@ -29,17 +29,19 @@
                     </div>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon d-flex align-items-center justify-content-center">
+                        <i class="fas fa-bars" style="color: black; font-size: 100%;"></i>
+                    </span>
                 </button>
             </div>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link nav-style" href="home.html">HOME</a>
-                    <a class="nav-item nav-link nav-style" href="about.html">ABOUT</a>
-                    <a class="nav-item nav-link nav-style" href="resume.html">RESUME</a>
-                    <a class="nav-item nav-link nav-style" href="services.html">SERVICIOS</a>
-                    <a class="nav-item nav-link nav-style" href="gallery.html">PROJECTS</a>
-                    <a class="nav-item nav-link nav-style" href="contact.html">CONTACT</a>
+                <div class="navbar-nav" style="color: black;">
+                    <a class="text-center nav-item nav-link nav-style" href="home.html">HOME</a>
+                    <a class="text-center nav-item nav-link nav-style" href="about.html">ABOUT</a>
+                    <a class="text-center nav-item nav-link nav-style" href="resume.html">RESUME</a>
+                    <a class="text-center nav-item nav-link nav-style" href="services.html">SERVICIOS</a>
+                    <a class="text-center nav-item nav-link nav-style" href="projects.html">PROJECTS</a>
+                    <a class="text-center nav-item nav-link nav-style" href="contact.html">CONTACT</a>
                 </div>
             </div>
         </nav>
@@ -47,8 +49,8 @@
     <main>
         <div class="container">
             <div class="row">
-                <h1 class="text-center" style="font-size: 3em;">Contact Me</h1>
-                <p class="text-center" style="color: white;">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                <h1 class="text-center" style="color: black; font-size: 3em;">Contactame</h1>
+                <p class="text-center" style="color: white;">Muy, muy lejos, detrás de las montañas de palabras, lejos de los países Vokalia y Consonantia</p>
             </div>
             <div class="row d-flex justify-content-around">
                 <div class="card shadow mb-5 bg-body rounded" style="width: 18rem; height: 18rem;">
@@ -83,9 +85,11 @@
         </div>
         <div class="container">
             <div class="card shadow p-3 mb-5 bg-body rounded">
-                <div class="card-body d-flex justify-content-center">
-                    <img class="col-6 m-2 img-fluid rounded" src="../public/img/user.png" alt="user">
-                    <form class="col-6 m-2 float-end flex-direction: row gap-3">
+                <div class="text-center">
+                    <img class="img-thumbnail m-2 rounded" style="max-width: 40vw;" src="../public/img/user.png" alt="user">
+                </div>
+                <div class="card-body d-grid justify-content-center">
+                    <form class="d-flex m-2 flex-direction: row gap-3">
                         <input type="text" class="form-control" id="name" placeholder="Tu nombre">
                         <input type="email" class="form-control" id="email" placeholder="Tu email">
                         <input type="text" class="form-control" id="subject" placeholder="Asunto">
